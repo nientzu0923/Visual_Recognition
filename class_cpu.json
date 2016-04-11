@@ -1,0 +1,9 @@
+{
+  "classifiers": [
+
+	{
+	  "classifier_id": "cpu_1065111930",
+      "name": "cpu"
+	}
+ ]
+}
