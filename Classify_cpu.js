@@ -3,8 +3,8 @@ var fs = require('fs');
 
 	
 var visual_recognition = watson.visual_recognition({
-  username: '69440278-4c65-468c-ae21-8685e230477e',
-  password: 'Mt2MKsfB9EwM',
+  username: 'your username',
+  password: 'your password',
   version: 'v2-beta',
   version_date: '2015-12-02'
 });
