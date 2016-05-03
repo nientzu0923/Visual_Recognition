@@ -13,7 +13,7 @@ var visual_recognition = watson.visual_recognition({
 var params = {
 	
   images_file: fs.createReadStream('./test1.jpg'),  //所需測試的圖片檔名
-  classifier_ids: fs.readFileSync('./class_cpu.json')  //這邊輸入改好的json檔 若註解掉此行則會直接用Visual recognition已有的分類器辨識你的圖片
+  classifier_ids: fs.readFileSync('./class_cpu.json')  //這邊輸入改好的json檔檔名 若註解掉此行則會直接用Visual recognition內建的分類器辨識你的圖片
                                                        //就不會使用到你訓練好的分類器
 };
 
