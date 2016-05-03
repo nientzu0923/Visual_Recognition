@@ -3,7 +3,7 @@
 
 	{
 	  "classifier_id": "your classifier_id",
-      "name": "cpu"
+      	  "name": "cpu"
 	}
  ]
 }
